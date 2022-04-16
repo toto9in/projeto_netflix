@@ -1,0 +1,43 @@
+:root{
+    --cordalogo: #1affba;
+    --NavyBlazer: #282d3c;
+    --verdinho: #b3ffe6;
+    --pretinho: #16171d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background: var(--pretinho);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .logo{
+    color: white;
+    font-family: 'Arial Black';
+    font-size: 40px;
+    margin-left: 10px;
+
+}
+header .container{
+    background-color: var(--NavyBlazer);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: grey;
+}
+
